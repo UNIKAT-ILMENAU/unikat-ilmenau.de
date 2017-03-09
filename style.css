@@ -1,0 +1,65 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0,0,0,0.85);
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 640px;
+  top: 20%;
+  position: absolute;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+}
+
+.primary,
+.links {
+  padding: 0.5em;
+}
+
+.primary {
+  text-align: right;
+  padding: 1.5em 0.5em 2.5em 0.5em;
+}
+
+.primary h3 {
+  display: inherit;
+  color: rgba(11, 116, 122, 0.74);
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.primary a:hover h3 {
+  text-decoration: underline;
+}
+
+.links {
+  background: rgba(11, 116, 122, 0.09);
+}
+
+.links a {
+  color: rgba(34, 64, 66, 0.75);
+  padding-right: 4px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
