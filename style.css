@@ -15,8 +15,7 @@ body {
 
 .wrapper {
   width: 640px;
-  top: 20%;
-  position: absolute;
+  margin-top: 20%;
 }
 
 img {
