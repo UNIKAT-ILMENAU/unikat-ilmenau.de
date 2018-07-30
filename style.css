@@ -63,3 +63,9 @@ a {
 .links a:hover {
   text-decoration: underline;
 }
+ 
+.links span {
+ color: rgba(95, 127, 130, 0.58);
+ float: left;
+ min-width: 60px;
+}
